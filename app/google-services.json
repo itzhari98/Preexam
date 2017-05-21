@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "1080638816471",
+    "firebase_url": "https://platzigram-ddd41.firebaseio.com",
+    "project_id": "platzigram-ddd41",
+    "storage_bucket": "platzigram-ddd41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080638816471:android:cc9f7a48eab278cb",
+        "android_client_info": {
+          "package_name": "com.example.itzhari.platzigram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080638816471-e84hojdjcsihlrfks7kqsdv5g60r59ir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3juLg39aidUwO-GHFdFZO1B1PQfCwjFI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080638816471:android:cc62a3f66ae3ef42",
+        "android_client_info": {
+          "package_name": "com.itzhari.preexam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080638816471-e84hojdjcsihlrfks7kqsdv5g60r59ir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3juLg39aidUwO-GHFdFZO1B1PQfCwjFI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

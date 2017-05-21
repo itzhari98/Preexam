@@ -1,0 +1,177 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.itzhari.preexam.Vistas.Fragmentos.MeFragment">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/profil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:paddingBottom="20dp"
+        android:layout_gravity="center|top"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/dimen_circleimageprofile"
+            android:layout_height="@dimen/dimen_circleimageprofile"
+            android:src="@drawable/image"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="@dimen/margintop_circleimageprofile"/>
+        <TextView
+            android:id="@+id/usernameProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usuario"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textsize_usernameprofile"/>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@+id/profil">
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Editar"
+                android:id="@+id/editar"
+                android:onClick="editar"
+
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre:"
+                android:textSize="28sp"/>
+
+            <EditText
+                android:id="@+id/nombre"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Itzhari del rosario"
+                android:textSize="25sp"
+                android:enabled="false"
+                android:paddingBottom="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apellidos:"
+                android:textSize="28sp"/>
+            <EditText
+                android:inputType="text"
+                android:id="@+id/apellidos"
+                android:enabled="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Canul castro"
+                android:textSize="25sp"
+                android:paddingBottom="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correo:"
+                android:textSize="28sp"/>
+            <EditText
+                android:id="@+id/correo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:enabled="false"
+                android:text="itzhari96@gmail.com"
+                android:textSize="25sp"
+                android:inputType="textEmailAddress"
+                android:paddingBottom="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Contraseña:"
+                android:textSize="28sp"/>
+            <EditText
+
+                android:id="@+id/contraseña"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="*********"
+                android:textSize="25sp"
+                android:inputType="textPassword"
+                android:paddingBottom="15dp"/>
+            <LinearLayout
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:orientation="horizontal"
+                android:gravity="center|top"
+
+                >
+                <Button
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/cancel"
+                    android:id="@+id/guar"
+                    android:text="Guardar"
+                    android:onClick="guardar"
+                    android:visibility="invisible"
+                    android:enabled="false"
+
+                    android:theme="@style/RaisedButtonDark"
+
+                    />
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cancel"
+                    android:text="cancel"
+                    android:visibility="invisible"
+                    android:enabled="false"
+                    android:onClick="cancel"
+
+                    android:theme="@style/RaisedButtonDark"
+
+                    />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

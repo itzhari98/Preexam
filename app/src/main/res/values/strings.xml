@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Preexam</string>
+    <string name="title_activity_crearcuenta">Crearcuenta</string>
+    <string name="Titulo_toolbar_crearcuenta">Crear cuenta</string>
+    <string-array name="tabs">
+        <item>Inicio</item>
+        <item>Fotos</item>
+        <item>Notas</item>
+        <item>Yo</item>
+        <item>cerrar sesion</item>
+    </string-array>
+    <string name="drawer_open">Abrir navigation drawer</string>
+    <string name="drawer_close">Cerrar navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="transitionname_picture">Transition name picture</string>
+</resources>

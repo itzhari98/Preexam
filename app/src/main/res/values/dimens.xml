@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_login_size">20sp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="edittex_margin_createacount">10dp</dimen>
+    <dimen name="dimen_circleimageprofile">160dp</dimen>
+    <dimen name="margintop_circleimageprofile">30dp</dimen>
+    <dimen name="elevation_circleimageprofile">10dp</dimen>
+    <dimen name="limitY_circleimage">-206dp</dimen>
+    <dimen name="margintoptoolbar_circleimageprofile">10dp</dimen>
+    <dimen name="width_circleimagetoolbar">-15dp</dimen>
+    <dimen name="textsize_usernameprofile">30dp</dimen>
+</resources>

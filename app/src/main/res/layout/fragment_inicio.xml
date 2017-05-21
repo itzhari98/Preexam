@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.itzhari.preexam.Vistas.Fragmentos.inicioFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/gridLayout">
+
+    <ImageView
+        android:id="@+id/imageviewpicture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/colorPrimaryLigth"
+        android:visibility="invisible"
+
+
+        />
+        <ImageView
+            android:id="@+id/imageviewpicture2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimaryLigth"
+            android:visibility="invisible"/>
+
+
+    </GridLayout>
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/gridLayout">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/tomar"
+            android:layout_width="70dp"
+            android:layout_height="150dp"
+
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_row="10"
+            android:onClick="empezarServ"
+            android:src="@android:drawable/ic_input_add"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.932"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.48">
+
+        </android.support.design.widget.FloatingActionButton>
+    </android.support.constraint.ConstraintLayout>
+
+</RelativeLayout>

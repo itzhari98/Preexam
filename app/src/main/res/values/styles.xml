@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="RaisedButtonDark" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="EditTextWhite" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">@color/TextWhite</item>
+        <!-- cambio de tamaño del texto -->
+        <item name="android:textSize">@dimen/text_login_size</item>
+        <!-- cuando el texto este clikeado -->
+        <item name="android:textColorPrimary">@color/TextWhite</item>
+        <!-- color de acentuación -->
+        <item name="colorAccent">@color/TextWhite</item>
+        <!-- ccuando el control esta normal -->
+        <item name="colorControlNormal">@color/TextWhite</item>
+        <!-- cuando el control esta activado-->
+        <item name="colorControlActivated">@color/TextWhite</item>
+
+    </style>
+    <style name="EditTextBlack" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">@color/primary_text</item>
+        <!-- cambio de tamaño del texto -->
+        <item name="android:textSize">@dimen/text_login_size</item>
+        <!-- cuando el texto este clikeado -->
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <!-- color de acentuación -->
+        <item name="colorAccent">@color/primary_text</item>
+        <!-- ccuando el control esta normal -->
+        <item name="colorControlNormal">@color/primary_text</item>
+        <!-- cuando el control esta activado-->
+        <item name="colorControlActivated">@color/primary_text</item>
+
+    </style>
+
+</resources>
